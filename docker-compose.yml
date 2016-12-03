@@ -1,6 +1,7 @@
 # As many as wanted
 web:
-  image: tutum/hello-world
+  #image: tutum/hello-world
+  build: ./api
   environment:
     SERVICE_NAME: 'www_hello'
     SERVICE_CHECK_HTTP: '/'

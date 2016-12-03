@@ -1,6 +1,6 @@
 # As many as wanted
 web2:
-  image: tutum/hello-world
+  build: ./api
   external_links:
     # Make all proxy-admin instances available through the proxy as proxy-admin.infra
     - "load-balancer:proxy-admin.infra"
